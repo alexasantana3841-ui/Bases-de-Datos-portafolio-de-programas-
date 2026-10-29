@@ -10,7 +10,7 @@ Alexa Estefania Santana Tapia
 | 2 | Limpieza de base de datos | `limpieza.py`, `mongodbalexasanatana.ipynb` (celda 1: Excel a JSON) |
 | 3 | Python a MySQL | `consultar_alumnos.py`, `insertar_alumno.py`, `modificar_alumno.py` |
 | 4 | Python a MongoDB | `python_mongodb.py`, `mongodbalexasanatana.ipynb` |
-| 5 | Análisis de datos con ML | `análisis_ml.py`, `mongodbalexasanatana.ipynb` (regresiones) |
+| 5 | Analisis de datos con ML | `analisis_ml.py`, `mongodbalexasanatana.ipynb` (regresiones) |
 
 ## Datos
 - `BancoMundialdb_indicadores.csv`: indicadores exportados de MongoDB Atlas.
@@ -23,4 +23,4 @@ Alexa Estefania Santana Tapia
 2. Credenciales: las contraseñas no están en el código.
    - MongoDB: `$env:MONGO_URI = "mongodb+srv://usuario:password@cluster0.2jtvffc.mongodb.net/"`
    - MySQL: escribir la contraseña local en los scripts de alumnos antes de ejecutar.
-3. Orden sugerido: `limpieza.py`, luego `análisis_ml.py`.
+3. Orden sugerido: `limpieza.py`, luego `analisis_ml.py`.
